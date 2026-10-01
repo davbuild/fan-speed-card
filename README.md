@@ -23,7 +23,7 @@ Works with any `fan` entity that supports speed (`percentage`) and, optionally, 
 - **State** chip: turn the fan on or off
 - **Direction** chip: switch between forward and reverse (hidden if the entity doesn't support it)
 - Optional **Light** chip for the fan's light: tap to toggle, long-press to open the light's more-info dialog
-- Icon-only buttons that light up (fan, direction, light); the direction button lights up in the accent colour when the fan runs in reverse
+- Icon-only buttons that light up (fan, direction, light); the direction button turns **red** when the fan runs in reverse (it only lights up while the fan is on)
 - Animated fan icon that spins faster with the speed and follows the rotation direction (can be turned off with `animate_icon: false`)
 - Keyboard support (arrow keys) and follows your Home Assistant theme (light/dark)
 - Configurable number of speeds (default 6)
