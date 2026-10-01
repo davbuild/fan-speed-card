@@ -67,7 +67,7 @@ animate_icon: false     # optional, stop the fan icon from spinning
 |--------|:--------:|---------|-------------|
 | `entity` | ✅ | — | The `fan.*` entity to control |
 | `name` | ❌ | — | Small title shown above the dial |
-| `speeds` | ❌ | `6` | Number of speed steps on the dial |
+| `speeds` | ❌ | auto (entity `percentage_step`, else `6`) | Number of speed steps on the dial |
 | `light_entity` | ❌ | — | A `light.*`, `switch.*` or `input_boolean.*` entity (e.g. the fan's light). Adds a **Light** button: tap toggles it, long-press opens its more-info dialog |
 | `animate_icon` | ❌ | `true` | Set to `false` to keep the fan icon still instead of spinning |
 | `language` | ❌ | auto | Force a language (e.g. `es`, `en`, `fr`). By default the Home Assistant user language is used |
