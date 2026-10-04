@@ -13,7 +13,7 @@ Lovelace card for Home Assistant to control a `fan` entity with on/off, rotation
 Works with any `fan` entity that supports speed (`percentage`) and, optionally, direction.
 
 <p align="center">
-  <img src="docs/card-preview.png" width="420" alt="Fan Speed Card — speed 3 of 6, direction forward">
+  <img src="https://raw.githubusercontent.com/davbuild/fan-speed-card/main/docs/card-preview.png" width="420" alt="Fan Speed Card — speed 3 of 6, direction forward">
 </p>
 
 ## Features
@@ -31,13 +31,13 @@ Works with any `fan` entity that supports speed (`percentage`) and, optionally, 
 
 ## Installation via HACS
 
-[![Open in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=davbuild&repository=fan-speed-card&category=lovelace)
+[![Open in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=davbuild&repository=fan-speed-card&category=plugin)
 
 Or manually:
 
 1. HACS → **(⋮)** → Custom repositories
 2. URL: `https://github.com/davbuild/fan-speed-card`
-3. Category: **Lovelace**
+3. Category: **Dashboard**
 4. Search for **Fan Speed Card** and install
 5. Reload Lovelace
 
